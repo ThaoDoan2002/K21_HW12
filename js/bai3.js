@@ -1,10 +1,10 @@
 // Ex3
-let diem = 7;
+let diem = 0;
 const THRESHOLD_1 = 5;
 const THRESHOLD_2 = 7;
 const THRESHOLD_3 = 9;
 
-if (diem == null) {
+if (!diem) {
   console.log("Chưa có điểm");
 } else if (diem < 0 || diem > 10) {
   console.log("Điểm không hợp lệ");
